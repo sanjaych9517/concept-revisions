@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const App = () => {
 
   const [count, setCount] = useState(0);
-  const [darkTheme, setDarkTheme] = useState(true);
+  const [darkTheme, setDarkTheme] = useState(false);
 
 // increment function
 const increment = () =>{
@@ -35,7 +35,7 @@ const toggle = () =>{
       <div className="flex gap-5  ">
         <button
           onClick={increment}
-          className="bg-green-600 px-5 py-2 text-2xl text-white rounded"
+          className="bg-green-600 px-5 py-2 text-2xl text-white rounded "
         >
           Inc ++
         </button>
